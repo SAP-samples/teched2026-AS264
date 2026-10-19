@@ -1,26 +1,29 @@
-# Level 1 Heading
+# Exercise 0 – Getting Started
 
-In this exercise, you will...
+In this exercise you open Joule in SAP Ariba and start a conversation with the Sourcing Assistant. You repeat these steps at the start of every exercise.
 
-## Level 2 Heading
+### 1. Open Joule
 
-After completing these steps you will have....
+Click the **Joule** icon in the top right corner of the SAP Ariba screen.
 
-1.	Click here.
-<br>![](/exercises/ex0/images/00_00_0010.png)
+<img src="images/01-open-joule.png" alt="Open Joule" width="500">
 
-2.	Insert this code.
-``` abap
- DATA(params) = request->get_form_fields(  ).
- READ TABLE params REFERENCE INTO DATA(param) WITH KEY name = 'cmd'.
-  IF sy-subrc <> 0.
-    response->set_status( i_code = 400
-                     i_reason = 'Bad request').
-    RETURN.
-  ENDIF.
-```
+### 2. Open Joule Work (optional)
+
+For a full-screen experience, click **Open Joule Work**. This is not required.
+
+<img src="images/02-open-joule-work.png" alt="Open Joule Work (optional)" width="500">
+
+### 3. Select the Sourcing Assistant
+
+In the message box, type `@` and choose **Sourcing Assistant**. Each exercise tells you what to type next.
+
+<img src="images/03-select-sourcing-assistant.png" alt="Select the Sourcing Assistant" width="500">
 
 ## Summary
 
-Now that you have ... 
-Continue to - [Exercise 1 - Exercise 1 Description](../ex1/README.md)
+You can now open Joule and address the Sourcing Assistant. Each exercise starts with a **fresh Joule session** (close Joule and reopen it, or start a new conversation) so that context from earlier exercises does not carry over.
+
+---
+
+[Overview](../../README.md) | [Exercise 1 ▶](../ex1/README.md)
