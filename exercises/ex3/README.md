@@ -4,11 +4,11 @@ In this exercise you use the **Bid Analysis & Negotiation Agent** on a published
 
 > **Start a fresh Joule session** for this exercise (see [Exercise 0](../ex0/README.md)).
 >
-> **Test event:** your instructor will give you the event ID (Doc ID) to use.
+> **Your event:** use the event ID on your handout (for example `Doc1234567890`). Your event may be an IT hardware, MacBook, or landscaping RFP, so your results will differ from the screenshots, but the steps are the same.
 
 ### 1. Start the analysis
 
-Open Joule and select **@Sourcing Assistant**. Then type, using the Doc ID from your instructor:
+Open Joule and select **@Sourcing Assistant**. Then type, using the event ID from your handout:
 
 ```
 Analyze bids for <Doc ID>
