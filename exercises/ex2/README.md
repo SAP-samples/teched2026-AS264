@@ -1,34 +1,46 @@
 # Exercise 2 – Create a Sourcing Event from an Attachment
 
-In this exercise you create an RFP for landscaping services by uploading an existing requirements document, then use Joule to suggest and add supplier questions.
+In this exercise you create an RFP by uploading an existing scope document. The Sourcing Event Agent extracts the line items and requirements from the file, then use Joule to suggest and add supplier questions.
 
 > **Start a fresh Joule session** for this exercise (see [Exercise 0](../ex0/README.md)).
 
-### 1. Start the request
+## Before you start: choose and download a sample file
+
+Pick one of the scope documents in the [sample-files](sample-files/) folder:
+
+| File | Scenario |
+|---|---|
+| [Sample_RFP_Corporate_Catering.docx](sample-files/Sample_RFP_Corporate_Catering.docx) | Corporate catering and food services, 8 line items |
+| [Sample_RFP_MRO_Spare_Parts.docx](sample-files/Sample_RFP_MRO_Spare_Parts.docx) | MRO spare parts for a manufacturing plant, 10 line items, detailed terms |
+| [Sample_Bid_Sheet_Piping_Construction.xlsx](sample-files/Sample_Bid_Sheet_Piping_Construction.xlsx) | Pipeline and meter station construction, 130+ line items (Excel) |
+
+To download a file, click it, then click the **Download raw file** button (the download icon, top right).
+
+> **Note:** Some screenshots below come from other example files. Your event name, line items and questions will match the file you chose.
+
+### 1. Ask for an RFP from an attachment
 
 Open Joule and select **@Sourcing Assistant**. Then type:
 
 ```
-Create an RFP for yard maintenance and landscaping services.
+Create an RFP from the scope in the attachment
 ```
 
-### 2. Choose to create from an attachment
+### 2. Wait for the Sourcing Event Agent
 
-Choose **Create from Attachment**.
+The Sourcing Assistant hands your request over to the **Sourcing Event Agent**, which asks you to upload the file. Wait for this reply before you upload anything.
 
-<img src="images/02-create-from-attachment.png" alt="Choose to create from an attachment" width="380">
+<img src="images/01-prompt-and-reply.png" alt="Prompt and agent reply" width="600">
 
 ### 3. Upload the file
 
-Select the file `Landscaping_Services_RFP_Lab_Import.docx`, or drag and drop it into Joule.
-
-<img src="images/03-upload-file.png" alt="Upload the file" width="380">
+Click the **+** (attachment) icon in the message box and select the sample file you downloaded, or drag and drop it into Joule.
 
 ### 4. Review the summary
 
-Review the event summary. It should include the total value, line items, template, and number of questions.
+The agent reads the document and returns a draft event. Check how much it extracted: event name, total value, line items, template, and number of questions.
 
-<img src="images/04-event-summary.png" alt="Review the summary" width="380">
+<img src="images/02-upload-and-summary.png" alt="Uploaded file and event summary" width="600">
 
 ### 5. Review the questions
 
@@ -78,9 +90,13 @@ On the event card, choose **View Details in App**. Check that all the questions 
 
 Review the created RFP in SAP Ariba Guided Sourcing.
 
+## Optional: try another file
+
+Start a new conversation and repeat the exercise with a different sample file. Compare what the agent extracts from a Word RFP and from an Excel price sheet.
+
 ## Summary
 
-You turned an existing requirements document into a structured RFP and used Joule to strengthen the supplier questionnaire.
+You turned an existing scope document into a structured RFP and used Joule to strengthen the supplier questionnaire.
 
 ---
 

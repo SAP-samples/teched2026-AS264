@@ -1,5 +1,7 @@
 # AS264 - Experience the Sourcing Assistant: From RFP to Award
 
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2026-AS264)](https://api.reuse.software/info/github.com/SAP-samples/teched2026-AS264)
+
 ## Description
 
 This repository contains the material for the SAP TechEd 2026 session called AS264 - Experience the Sourcing Assistant: From RFP to Award.
